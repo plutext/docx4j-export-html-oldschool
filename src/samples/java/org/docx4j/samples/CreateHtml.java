@@ -102,11 +102,7 @@ public class CreateHtml extends AbstractSample {
 			try {
 				getInputFilePath(args);
 			} catch (IllegalArgumentException e) {
-//		    	inputfilepath = System.getProperty("user.dir") + "/corpus/sample-docx.docx";
-				
-//		    	inputfilepath = System.getProperty("user.dir") + "/corpus/Docracy Technology Assignment Agreement.DOCX";
-
-		    	inputfilepath = System.getProperty("user.dir") + "/corpus/TestCase_NumberingIndents.docx";
+		    	inputfilepath = System.getProperty("user.dir") + "/src/samples/resources/sample-docxv2.docx";
 			}
 			System.out.println(inputfilepath);	    	
 	    	
